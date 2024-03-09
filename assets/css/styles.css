@@ -105,9 +105,9 @@ a {
 
 .header__fixed {
   position: sticky;
-  top: -25px;
   background-color: #fff;
-  z-index: 10;
+  top: 0;
+  z-index: 2;
 }
 
 .navbar {
@@ -145,6 +145,10 @@ a {
 
 .navbar__cta-btn {
   margin-left: 88px;
+}
+
+.navbar__category {
+  display: none;
 }
 
 /* Hero */
@@ -233,9 +237,6 @@ a {
   rotate: 45deg;
 }
 
-.hero__play {
-}
-
 .hero__cta-watch-text {
   color: #152427;
   font-size: 1.8rem;
@@ -300,17 +301,10 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 201px;
+  column-gap: 64px;
+  padding: 76px 121px;
   border-radius: 100.5px;
   background-color: #e2eddf;
-}
-
-.social__item:first-child {
-  margin-left: 121px;
-}
-
-.social__item:last-child {
-  margin-right: 121px;
 }
 
 .social__item:nth-child(3) {
@@ -391,6 +385,10 @@ a {
   border-radius: 20px 20px 0px 0px;
   overflow: hidden;
   background-color: #fff;
+}
+
+.services__cta-btn-mobile {
+  display: none;
 }
 
 .services__item:hover {
@@ -485,6 +483,10 @@ a {
 
 .about__info .heading {
   margin-top: 20px;
+}
+
+.about__info .heading::after {
+  display: none;
 }
 
 .about__desc {
@@ -632,7 +634,7 @@ a {
   align-items: center;
   padding: 46px 41px 21px 20px;
   width: 100%;
-  border-bottom: 3px solid #c7d4c4;
+  border-bottom: 1px solid #c7d4c4;
   transition: 0.25s;
 }
 
@@ -659,6 +661,14 @@ a {
 
 .process__item:last-child:hover .process__img {
   display: block;
+}
+
+.process__wrap {
+  display: flex;
+}
+
+.process-item-wrap {
+  display: flex;
 }
 
 .process-item__number {
@@ -861,7 +871,6 @@ a {
 
 .feature__list {
   display: flex;
-  flex: 1;
   column-gap: 45px;
   margin-top: 103px;
   padding-bottom: 92px;
@@ -869,11 +878,13 @@ a {
 
 .feature__item {
   display: flex;
+  flex: 1;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   max-width: 31%;
-  height: 362px;
+  padding: 40px 30px;
+  background: #fff;
   border: 1.5px solid #cecece;
   border-radius: 160px;
   transition: 0.25s;
@@ -1028,8 +1039,7 @@ a {
 .resources-item__date {
   display: flex;
   justify-content: flex-end;
-  margin-top: 15px;
-  padding-bottom: 12px;
+  margin: 15px 0 12px;
   color: var(--desc-color);
   font-family: Poppins;
   font-size: 1rem;
@@ -1080,6 +1090,10 @@ a {
   background-color: transparent;
   border: none;
   cursor: pointer;
+}
+
+.footer__category {
+  display: none;
 }
 
 .footer__social {
@@ -1153,7 +1167,7 @@ a {
 }
 
 .footer__line-bar {
-  width: 1140px;
+  width: 100%;
   height: 1px;
   background: linear-gradient(
     90deg,
