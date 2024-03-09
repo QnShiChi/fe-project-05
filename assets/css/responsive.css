@@ -22,10 +22,6 @@
 
   /* header navbar */
 
-  .header__fixed {
-    margin-top: 5px;
-  }
-
   .navbar__list {
     display: none;
   }
