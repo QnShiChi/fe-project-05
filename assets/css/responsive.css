@@ -596,6 +596,7 @@
 
   .footer__container {
     padding: 0;
+    justify-content: unset;
   }
 
   .footer__heading {
