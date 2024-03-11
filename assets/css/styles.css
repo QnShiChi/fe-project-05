@@ -1071,7 +1071,6 @@ a {
   display: flex;
   justify-content: space-between;
   padding-bottom: 30px;
-  max-width: 354px;
   margin-top: 25px;
   border-bottom: 1px solid #6a8383;
 }
