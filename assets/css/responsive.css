@@ -606,6 +606,10 @@
     font-weight: 500;
   }
 
+  .footer__form {
+    width: 335px;
+  }
+
   .footer__input-email {
     padding: 0;
     color: var(--Scondery-color-gray, #6a8383);
