@@ -21,6 +21,17 @@
   }
 
   /* header navbar */
+  .logo {
+    display: none;
+  }
+
+  .nav__logo-mobile {
+    display: flex;
+  }
+
+  .logo-mobile {
+    margin-right: 5px;
+  }
 
   .navbar__list {
     display: none;
@@ -47,7 +58,7 @@
 
   .navbar__category {
     display: block;
-    margin: 0 30px;
+    margin-left: 30px;
   }
 
   /* Hero */

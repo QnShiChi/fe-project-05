@@ -120,6 +120,10 @@ a {
   border-bottom: 1px solid #d3d2d2;
 }
 
+.nav__logo-mobile {
+  display: none;
+}
+
 .navbar__list {
   display: flex;
   margin-left: auto;
