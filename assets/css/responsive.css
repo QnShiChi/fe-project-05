@@ -618,6 +618,10 @@
     font-weight: 500;
   }
 
+  .footer__submit-arrow {
+    display: none;
+  }
+
   .footer__info {
     display: none;
   }
