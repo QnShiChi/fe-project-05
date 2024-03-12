@@ -596,7 +596,7 @@
 
   .footer__container {
     padding: 0;
-    justify-content: unset;
+    flex-flow: row-reverse;
   }
 
   .footer__heading {
@@ -606,20 +606,12 @@
     font-weight: 500;
   }
 
-  .footer__form {
-    width: 335px;
-  }
-
   .footer__input-email {
     padding: 0;
     color: var(--Scondery-color-gray, #6a8383);
     font-family: Poppins;
     font-size: 2rem;
     font-weight: 500;
-  }
-
-  .footer__submit-arrow {
-    display: none;
   }
 
   .footer__info {
